@@ -1,0 +1,42 @@
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// SBAdmin Template
+@import 'sb-admin';
+
+table th.button-icon-col, table td.button-icon-col {
+    max-width: 52px;
+    width: 52px;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.form-control[disabled] {
+    background-color: white !important;
+    border-style: dashed;
+}
+
+textarea.form-control{
+    resize: none !important;
+    height: 3.625rem !important;
+}
+
+textarea.form-control.height-xs {
+    height: 3.625rem !important;
+}
+
+textarea.form-control.height-sm{
+    height: 4.4rem !important;
+}
+
+textarea.form-control.height-md{
+    height: 6.9rem !important;
+}
+
+textarea.form-control.height-lg{
+    height: 11.9rem !important;
+}
+
+textarea.form-control.height-xl{
+    height: 17.0rem !important;
+}
