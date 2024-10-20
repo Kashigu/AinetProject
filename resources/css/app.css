@@ -1,0 +1,51 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+.alinhaTextoCentro{
+    text-align: center
+}
+.price-details {
+    display: flex;
+    justify-content: space-between;
+}
+.fim{
+    display: flex;
+    justify-content: flex-end;
+}
+.box{
+    box-shadow: 10px 1px 5px gray;
+    border: 2px solid black;
+    border-radius: 10px
+}
+
+.price {
+    float: left;
+}
+
+.details {
+    float: right;
+}
+.vertical-line {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.verticalRight-line {
+    border-right: 1px solid #ccc;
+}
+
+.rowReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.color-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 5px;
+    cursor: pointer;
+}
